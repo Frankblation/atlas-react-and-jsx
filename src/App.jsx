@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Section from './components/Section';
 import HelpfulResource from './components/HelpfulResource';
 import AboutMe from './components/AboutMe';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -29,12 +30,12 @@ function App() {
 
       <Section title="Helpful resources">
         <HelpfulResource
-          link="https://reactjs.org/docs/getting-started.html"
-          label="Official React Documentation"
+          link="https://react.dev/reference/react"
+          label="Learn some more React"
         />
         <HelpfulResource
-          link="https://www.freecodecamp.org/learn/front-end-development-libraries/react/"
-          label="FreeCodeCamp React Course"
+          link="https://www.builder.io/blog/react-component-library"
+          label="React UI Component Libraries in 2025"
         />
         <HelpfulResource
           link="https://www.youtube.com/watch?v=w7ejDZ8SWv8"
@@ -42,6 +43,7 @@ function App() {
         />
       </Section>
         <AboutMe />
+      <Footer />
     </div>
   );
 }
